@@ -9,10 +9,10 @@
 # gem "pry"
 # end
 source "https://rubygems.org"
-gem "rspec"
-gem "sinatra"
-gem 'awesome_print', git: 'https://github.com/awesome-print/awesome_print'
+  gem "rspec"
+  gem "sinatra"
+  gem 'awesome_print', git: 'https://github.com/awesome-print/awesome_print'
 
 group :development do
-gem "pry"
+  gem "pry"
 end
